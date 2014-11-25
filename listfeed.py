@@ -34,7 +34,6 @@ from ConfigParser import SafeConfigParser
 
 HEADER = """<?xml version="1.0" encoding="UTF-8"?>
 <feed xml:lang="{lang}" xmlns="http://www.w3.org/2005/Atom">
-  <id>tag:linuxfr.org,2005:/news</id>
   <link rel="alternate" type="text/html" href="{alt-url}"/>
   <link rel="self" type="application/atom+xml" href="{self-url}"/>
   <title>{title}</title>
