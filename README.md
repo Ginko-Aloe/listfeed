@@ -33,6 +33,8 @@ python genfeed.py mylist.csv yourfeed.csv
   ```
   where mylist.csv is the list you created (with 3 columns) and yourfeed.csv is the new csv file generated with publication dates (five columns).
 
+  Default configuration of genfeed.py will begin publication 5 days in the past and publish one new item per day. You should be able to change that configuration by editing the file directly (even if you don't know Python, it's quite understandable).
+
   NB: the name of the file ("yourfeed" in the previous example) will be the name under which this feed will be accessible.
 
 3. Create an ini file like the following one, named yourfeed.ini:
