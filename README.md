@@ -1,11 +1,13 @@
-ListFeed
-========
+ListFeed (Alpha)
+================
 
 Make a feed from any list
 
 ListFeed is a python cgi script capable of dynamically generating a feed (Atom) from a simple list file (csv).
 
 It's built with simplicity in mind (KISS principle - Keep It Simple Stupid).
+
+ATTENTION : ListFeed is in alpha version. Further changes might require me to rewrite large parts of the actually really tiny codebase or to break the retrocompatibility of the configuration files.
 
 What ListFeed can do
 ====================
