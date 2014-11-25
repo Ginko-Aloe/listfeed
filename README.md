@@ -28,7 +28,7 @@ Getting started
   * A description (it can contain semi-colons)
 
 2. Use genfeed.py to calculate publication dates for each entry.
-  ```shell
+  ```bash
 python genfeed.py mylist.csv yourfeed.csv
   ```
   where mylist.csv is the list you created (with 3 columns) and yourfeed.csv is the new csv file generated with publication dates (five columns).
@@ -48,7 +48,7 @@ title =  My own personal feed.
 4. Adapt the values to your own taste.
 
 5. On your websever:
-  * Put listfeed.py on your server.
+  * Put listfeed.py on your server. (chmod it to 704 to let the webserver execute it; some webserver might require you to rename it listfeed.cgi)
   * Create the directories data and cache in the same directory.
   * Put yourfeed.csv and yourfeed.ini in the data directory you've just created.
 
